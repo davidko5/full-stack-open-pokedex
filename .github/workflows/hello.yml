@@ -12,6 +12,6 @@ jobs:
       - name: Say hello
         run: echo "Hello, world!"
       - name: Show current time
-        run: echo date
+        run: date
       - name: Show directory content
-        run: echo ls -l
+        run: ls -l
