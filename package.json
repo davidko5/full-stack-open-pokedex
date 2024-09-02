@@ -10,7 +10,9 @@
     "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production",
     "playwright-test": "playwright test",
-    "playwright-test:report": "playwright show-report"
+    "playwright-test:report": "playwright show-report",
+    "e2e-test": "playwright test",
+    "test-ui-chromium": " npm run e2e-test -- --ui --project chromium"
   },
   "repository": {
     "type": "git",
